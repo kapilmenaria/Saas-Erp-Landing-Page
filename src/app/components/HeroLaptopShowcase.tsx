@@ -353,9 +353,11 @@ export default function HeroLaptopShowcase() {
                 {/* Left: Brand & Search */}
                 <div className="flex items-center gap-2.5 flex-1 pr-12">
                   <div className="flex items-center gap-1.5 font-bold tracking-tight text-white">
-                    <span className="w-4 h-4 rounded-full bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center text-[9px] font-black shadow-xs">
-                      ⚡
-                    </span>
+                    <img
+                      src="/images/logo/Wlogo.webp"
+                      alt="Warrgyizmorsch Logo"
+                      className="h-4.5 w-auto object-contain"
+                    />
                     <span className="text-[12px] font-extrabold tracking-wider text-slate-100">ERP</span>
                   </div>
 

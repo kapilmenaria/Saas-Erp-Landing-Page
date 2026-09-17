@@ -51,20 +51,13 @@ export default function SiteFooter() {
         <FooterColumn
           title="Modules Hub"
           links={[
-            { label: "All 9 Modules Directory", href: "/modules" },
+            { label: "All Modules Directory", href: "/modules" },
             { label: "CRM Module", href: "/modules/crm" },
             { label: "Sales & Orders", href: "/modules/sales" },
             { label: "Purchase & Vendor", href: "/modules/purchase" },
             { label: "Inventory Control", href: "/modules/inventory" },
-          ]}
-        />
-
-        <FooterColumn
-          title="Operations"
-          links={[
-            { label: "Manufacturing & MRP", href: "/modules/production" },
-            { label: "Accounting & GL", href: "/modules/accounting" },
-            { label: "Finance & Treasury", href: "/modules/finance" },
+            { label: "Production & Manufacturing", href: "/modules/production" },
+            { label: "Accounting & Finance", href: "/modules/accounting" },
             { label: "HRMS & Payroll", href: "/modules/hrms" },
             { label: "Project Management", href: "/modules/project" },
           ]}
@@ -83,10 +76,10 @@ export default function SiteFooter() {
         <FooterColumn
           title="Company"
           links={[
-            { label: "Platform Overview", href: "/" },
+            { label: "» Privacy Policy", href: "/privacy-policy" },
+            { label: "» Terms & Conditions", href: "/terms-and-conditions" },
+            { label: "» Cancellation Policy", href: "/cancellation-policy" },
             { label: "Contact Us", href: "/#contact" },
-            { label: "Book a Demo", href: "/#contact" },
-            { label: "Careers & Security", href: "/#contact" },
           ]}
         />
       </div>
@@ -94,9 +87,9 @@ export default function SiteFooter() {
       <div className="container footer-bottom">
         <span>© 2026 Warrgyizmorsch Systems. All rights reserved.</span>
         <div>
-          <Link href="/#contact">Privacy Policy</Link>
-          <Link href="/#contact">Terms & Conditions</Link>
-          <Link href="/#contact">Security</Link>
+          <Link href="/privacy-policy">Privacy Policy</Link>
+          <Link href="/terms-and-conditions">Terms & Conditions</Link>
+          <Link href="/cancellation-policy">Cancellation Policy</Link>
         </div>
       </div>
     </footer>

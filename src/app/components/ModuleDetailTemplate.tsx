@@ -12,6 +12,7 @@ import {
 } from "lucide-react";
 import SiteHeader from "./SiteHeader";
 import SiteFooter from "./SiteFooter";
+import ModuleFeatureShowcase from "./modules/showcase/ModuleFeatureShowcase";
 
 export interface ModuleFeature {
   title: string;
@@ -114,6 +115,9 @@ export default function ModuleDetailTemplate({ data }: { data: ModuleDetailData 
             </div>
           </div>
         </section>
+
+        {/* NEW FEATURE SHOWCASE SECTION (DARK B2B SAAS MASONRY) */}
+        <ModuleFeatureShowcase moduleSlug={data.slug} />
 
         {/* SECTION 2: PROBLEM IT SOLVES */}
         {painPoints.length > 0 && (

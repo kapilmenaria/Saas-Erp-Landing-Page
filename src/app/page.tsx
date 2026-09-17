@@ -107,9 +107,6 @@ export default function HomePage() {
             </div>
 
             {/* Main Headline from Zoho screenshot 2 */}
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#0F172A] tracking-[-0.03em] leading-[1.12] max-w-4xl mx-auto mb-5">
-              A new era of<br />
-              ERP software from Warrgyizmorsch
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-[#0F172A] tracking-[-0.03em] leading-[1.12] max-w-5xl mx-auto mb-5">
               A new era of ERP software<br className="hidden sm:inline" />{" "}
               from Warrgyizmorsch

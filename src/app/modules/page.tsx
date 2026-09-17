@@ -78,6 +78,18 @@ const modulesList: ModuleHubItem[] = [
     ],
   },
   {
+    slug: "inventory",
+    name: "Inventory Management",
+    badge: "Stock & Warehouses",
+    description: "Multi-location warehouse control, real-time stock tracking, and reorder alerts.",
+    icon: Boxes,
+    features: [
+      "Real-Time Serial, Batch & Expiry Traceability",
+      "Automated Reorder Triggers & Safety Stock Alerts",
+      "Mobile Barcode Scanning & Cycle Count Audits",
+    ],
+  },
+  {
     slug: "production",
     name: "Production Management",
     badge: "Manufacturing & MRP",
@@ -160,11 +172,13 @@ export default function ModulesHubPage() {
 
             <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
               Explore Warrgyizmorsch&apos;s suite of 9 deeply integrated enterprise applications. Connect your core business operations under one calm, intelligent platform designed for speed, visibility, and control.
+              Explore Warrgyizmorsch&apos;s suite of 8 deeply integrated enterprise applications. Connect your core business operations under one calm, intelligent platform designed for speed, visibility, and control.
             </p>
           </div>
         </section>
 
         {/* 9 Modules Grid */}
+        {/* 8 Modules Grid */}
         <section className="py-20 max-w-7xl mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {modulesList.map((mod) => {

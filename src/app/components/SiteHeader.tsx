@@ -9,7 +9,6 @@ import {
   ReceiptText,
   Factory,
   BarChart3,
-  TrendingUp,
   UsersRound,
   FolderKanban,
   ChevronDown,
@@ -20,12 +19,11 @@ import {
 
 export const headerModules = [
   { name: "CRM", desc: "Pipeline, leads & accounts", href: "/modules/crm", icon: Target, color: "text-violet-600 bg-violet-50" },
-  { name: "Inventory", desc: "Warehouse & stock control", href: "/modules/inventory", icon: Boxes, color: "text-amber-600 bg-amber-50" },
-  { name: "Sales & Orders", desc: "Quotations & order fulfillment", href: "/modules/sales", icon: ShoppingCart, color: "text-emerald-600 bg-emerald-50" },
-  { name: "Purchase & Vendor", desc: "RFQs, PO approvals & vendors", href: "/modules/purchase", icon: ReceiptText, color: "text-blue-600 bg-blue-50" },
-  { name: "Production", desc: "Manufacturing, BOM & MRP", href: "/modules/production", icon: Factory, color: "text-purple-600 bg-purple-50" },
+  { name: "Sales & Order Management", desc: "Quotations & order fulfillment", href: "/modules/sales", icon: ShoppingCart, color: "text-emerald-600 bg-emerald-50" },
+  { name: "Purchase & Procurement", desc: "RFQs, PO approvals & vendors", href: "/modules/purchase", icon: ReceiptText, color: "text-blue-600 bg-blue-50" },
+  { name: "Inventory Management", desc: "Warehouse & stock control", href: "/modules/inventory", icon: Boxes, color: "text-amber-600 bg-amber-50" },
+  { name: "Production Management", desc: "Manufacturing, BOM & MRP", href: "/modules/production", icon: Factory, color: "text-purple-600 bg-purple-50" },
   { name: "Accounting & Finance", desc: "Ledger, GL & financial reports", href: "/modules/accounting", icon: BarChart3, color: "text-teal-600 bg-teal-50" },
-  { name: "Finance & Treasury", desc: "Corporate treasury & FX risk", href: "/modules/finance", icon: TrendingUp, color: "text-cyan-600 bg-cyan-50" },
   { name: "HRMS & Payroll", desc: "Workforce, attendance & payroll", href: "/modules/hrms", icon: UsersRound, color: "text-rose-600 bg-rose-50" },
   { name: "Project Management", desc: "Projects & billable timesheets", href: "/modules/project", icon: FolderKanban, color: "text-indigo-600 bg-indigo-50" },
 ];
@@ -91,7 +89,7 @@ export default function SiteHeader() {
                     onClick={closeMenu}
                     className="text-[11px] text-blue-600 font-bold bg-blue-50 hover:bg-blue-100 px-3 py-1 rounded-full border border-blue-100 transition-colors flex items-center gap-1"
                   >
-                    <span>View All 9 Apps</span>
+                    <span>View All 8 Apps</span>
                     <ArrowRight className="w-3 h-3" />
                   </Link>
                 </div>
