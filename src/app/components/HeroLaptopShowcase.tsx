@@ -579,7 +579,7 @@ export default function HeroLaptopShowcase() {
             {/* Black Bottom Chin with subtle MacBook Pro lettering */}
             <div className="w-full h-[14px] bg-[#0A0C10] flex items-center justify-center border-t border-slate-800/80">
               <span className="text-[7.5px] tracking-[0.22em] font-medium text-slate-400/80 font-sans uppercase">
-                MacBook Pro
+               
               </span>
             </div>
           </div>

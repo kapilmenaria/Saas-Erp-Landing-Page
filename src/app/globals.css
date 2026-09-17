@@ -64,7 +64,7 @@
   --shadow-soft: 0 20px 60px -36px oklch(0.25 0.08 250 / 34%);
   --shadow-card: 0 10px 34px -24px oklch(0.25 0.08 250 / 28%);
   --shadow-blue: 0 18px 44px -24px oklch(0.5 0.2 255 / 44%);
-  --ease-nexa: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-warrgyizmorsch: cubic-bezier(0.32, 0.72, 0, 1);
 }
 
 @layer base {
@@ -332,7 +332,7 @@
   border-radius: 11px;
   font-size: 13px;
   font-weight: 700;
-  transition: transform .25s var(--ease-nexa), background .25s ease, border-color .25s ease, box-shadow .25s ease;
+  transition: transform .25s var(--ease-warrgyizmorsch), background .25s ease, border-color .25s ease, box-shadow .25s ease;
   cursor: pointer;
 }
 
@@ -1123,7 +1123,7 @@
   border-radius: 14px;
   background: color-mix(in oklab, var(--surface-raised) 79%, transparent);
   box-shadow: var(--shadow-card);
-  transition: transform .3s var(--ease-nexa), box-shadow .3s ease;
+  transition: transform .3s var(--ease-warrgyizmorsch), box-shadow .3s ease;
 }
 
 .benefit-card:hover,
@@ -1237,7 +1237,7 @@
   border-radius: 14px;
   background: var(--surface-raised);
   box-shadow: var(--shadow-card);
-  transition: transform .3s var(--ease-nexa), box-shadow .3s ease;
+  transition: transform .3s var(--ease-warrgyizmorsch), box-shadow .3s ease;
 }
 
 .module-icon {
@@ -1466,7 +1466,7 @@
   border-radius: 14px;
   background: var(--surface-raised);
   box-shadow: var(--shadow-card);
-  transition: transform .3s var(--ease-nexa), box-shadow .3s ease;
+  transition: transform .3s var(--ease-warrgyizmorsch), box-shadow .3s ease;
 }
 
 .industry-card:nth-child(5) {
@@ -2231,7 +2231,7 @@
   border: 1px solid var(--border);
   border-radius: 14px;
   background: var(--background);
-  transition: transform .3s var(--ease-nexa), box-shadow .3s ease;
+  transition: transform .3s var(--ease-warrgyizmorsch), box-shadow .3s ease;
 }
 
 .story-top {
@@ -2446,7 +2446,7 @@
 .faq-answer {
   display: grid;
   grid-template-rows: 0fr;
-  transition: grid-template-rows .35s var(--ease-nexa);
+  transition: grid-template-rows .35s var(--ease-warrgyizmorsch);
 }
 
 .faq-answer p {
@@ -2646,7 +2646,7 @@
 }
 
 .reveal-up {
-  animation: rise-in .75s var(--ease-nexa) both;
+  animation: rise-in .75s var(--ease-warrgyizmorsch) both;
 }
 
 .reveal-delay {

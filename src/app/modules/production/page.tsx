@@ -128,7 +128,7 @@ const productionData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Maximize plant throughput, eliminate material shortages, and control manufacturing costs with Nexa Production.",
+    "Maximize plant throughput, eliminate material shortages, and control manufacturing costs with Warrgyizmorsch Production.",
 };
 
 export default function ProductionModulePage() {

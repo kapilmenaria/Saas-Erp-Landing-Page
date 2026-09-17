@@ -21,7 +21,7 @@ const financeData: ModuleDetailData = {
   title: "Finance & Corporate Treasury",
   oneLinePromise: "Corporate treasury management, real-time liquidity forecasting, and capital allocation control.",
   description:
-    "Master corporate liquidity and financial risk. Nexa Finance & Treasury empowers CFOs with multi-bank treasury visibility, cash flow forecasting, foreign exchange risk hedging, intercompany debt settlements, and capital expenditure governance.",
+    "Master corporate liquidity and financial risk. Warrgyizmorsch Finance & Treasury empowers CFOs with multi-bank treasury visibility, cash flow forecasting, foreign exchange risk hedging, intercompany debt settlements, and capital expenditure governance.",
   painPoints: [
     {
       title: "Unpredictable Cash Flow Liquidity",
@@ -128,7 +128,7 @@ const financeData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Gain total control over corporate cash reserves, mitigate currency risks, and optimize capital allocation with Nexa Finance.",
+    "Gain total control over corporate cash reserves, mitigate currency risks, and optimize capital allocation with Warrgyizmorsch Finance.",
 };
 
 export default function FinanceModulePage() {

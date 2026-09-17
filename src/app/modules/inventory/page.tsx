@@ -128,7 +128,7 @@ const inventoryData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Eliminate stockouts, optimize warehouse space, and automate inventory replenishment with Nexa Inventory.",
+    "Eliminate stockouts, optimize warehouse space, and automate inventory replenishment with Warrgyizmorsch Inventory.",
 };
 
 export default function InventoryModulePage() {

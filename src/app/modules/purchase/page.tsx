@@ -128,7 +128,7 @@ const purchaseData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Streamline vendor procurement, enforce 100% spend compliance, and eliminate invoice errors with Nexa Purchase.",
+    "Streamline vendor procurement, enforce 100% spend compliance, and eliminate invoice errors with Warrgyizmorsch Purchase.",
 };
 
 export default function PurchaseModulePage() {

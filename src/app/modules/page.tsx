@@ -151,7 +151,7 @@ export default function ModulesHubPage() {
           <div className="max-w-7xl mx-auto px-4 sm:px-6 text-center space-y-6">
             <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 border border-blue-200 text-blue-700 text-xs font-extrabold tracking-widest uppercase">
               <Sparkles className="w-3.5 h-3.5" />
-              Nexa ERP Modules Directory
+              Warrgyizmorsch ERP Modules Directory
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black text-slate-900 tracking-tight leading-tight">
@@ -159,7 +159,7 @@ export default function ModulesHubPage() {
             </h1>
 
             <p className="text-base sm:text-lg text-slate-600 max-w-3xl mx-auto leading-relaxed">
-              Explore Nexa&apos;s suite of 9 deeply integrated enterprise applications. Connect your core business operations under one calm, intelligent platform designed for speed, visibility, and control.
+              Explore Warrgyizmorsch&apos;s suite of 9 deeply integrated enterprise applications. Connect your core business operations under one calm, intelligent platform designed for speed, visibility, and control.
             </p>
           </div>
         </section>
@@ -225,7 +225,7 @@ export default function ModulesHubPage() {
                 Ready to transform your business operations?
               </h2>
               <p className="text-base text-blue-100 leading-relaxed">
-                Connect your team with a personalized walkthrough of Nexa ERP tailored to your operational workflows.
+                Connect your team with a personalized walkthrough of Warrgyizmorsch ERP tailored to your operational workflows.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4 pt-2">
                 <Link

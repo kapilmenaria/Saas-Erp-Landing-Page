@@ -21,7 +21,7 @@ const salesData: ModuleDetailData = {
   title: "Sales & Order Management",
   oneLinePromise: "Streamlined sales quotations, multi-channel order execution, and automated invoice fulfillment.",
   description:
-    "Accelerate order-to-cash cycles. Nexa Sales & Order Management connects quotations, customer approvals, automated pricing rules, inventory reservations, and billing into one seamless workflow.",
+    "Accelerate order-to-cash cycles. Warrgyizmorsch Sales & Order Management connects quotations, customer approvals, automated pricing rules, inventory reservations, and billing into one seamless workflow.",
   painPoints: [
     {
       title: "Delayed Quotations & Lost Prospects",
@@ -128,7 +128,7 @@ const salesData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Accelerate your order-to-cash workflow, eliminate pricing errors, and give your customers a flawless fulfillment experience with Nexa Sales.",
+    "Accelerate your order-to-cash workflow, eliminate pricing errors, and give your customers a flawless fulfillment experience with Warrgyizmorsch Sales.",
 };
 
 export default function SalesModulePage() {

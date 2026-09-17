@@ -89,7 +89,7 @@ export default function CrmHeroInteractiveDashboard() {
             <span className="w-2.5 h-2.5 rounded-full bg-rose-400" />
             <span className="w-2.5 h-2.5 rounded-full bg-amber-400" />
             <span className="w-2.5 h-2.5 rounded-full bg-emerald-400" />
-            <span className="ml-2 font-mono text-[11px] text-slate-500">nexa-crm/pipeline-live</span>
+            <span className="ml-2 font-mono text-[11px] text-slate-500">warrgyizmorsch-crm/pipeline-live</span>
           </div>
 
           <div className="flex items-center gap-2">

@@ -10,19 +10,19 @@ interface FaqItem {
 
 const faqs: FaqItem[] = [
   {
-    question: "How long does it take to migrate our existing CRM data into Nexa?",
+    question: "How long does it take to migrate our existing CRM data into Warrgyizmorsch?",
     answer:
-      "Most sales teams complete migration in under 48 hours. Nexa includes built-in CSV/Excel importers and direct 1-click connectors for Salesforce, HubSpot, Zoho, and Pipedrive with automatic field mapping.",
+      "Most sales teams complete migration in under 48 hours. Warrgyizmorsch includes built-in CSV/Excel importers and direct 1-click connectors for Salesforce, HubSpot, Zoho, and Pipedrive with automatic field mapping.",
   },
   {
-    question: "How does Nexa AI Lead Scoring calculate deal probability?",
+    question: "How does Warrgyizmorsch AI Lead Scoring calculate deal probability?",
     answer:
-      "Nexa AI analyzes historical deal velocity, lead engagement signals (email opens, link clicks, meeting frequency), deal size, and firmographic fit to assign a real-time win score between 1 and 100.",
+      "Warrgyizmorsch AI analyzes historical deal velocity, lead engagement signals (email opens, link clicks, meeting frequency), deal size, and firmographic fit to assign a real-time win score between 1 and 100.",
   },
   {
-    question: "Does Nexa CRM sync automatically with Inventory and Accounting?",
+    question: "Does Warrgyizmorsch CRM sync automatically with Inventory and Accounting?",
     answer:
-      "Yes! When a opportunity moves to 'Won' or a proposal is accepted, Nexa can automatically trigger a binding Sales Order, reserve inventory stock, and generate an Invoice in the Accounting module.",
+      "Yes! When a opportunity moves to 'Won' or a proposal is accepted, Warrgyizmorsch can automatically trigger a binding Sales Order, reserve inventory stock, and generate an Invoice in the Accounting module.",
   },
   {
     question: "Can we customize sales pipelines and deal stages?",
@@ -32,7 +32,7 @@ const faqs: FaqItem[] = [
   {
     question: "Is bi-directional email and calendar sync supported?",
     answer:
-      "Yes, Nexa seamlessly integrates with Google Workspace and Microsoft 365. All sent emails, meeting invites, and call logs are synchronized automatically to the contact's timeline.",
+      "Yes, Warrgyizmorsch seamlessly integrates with Google Workspace and Microsoft 365. All sent emails, meeting invites, and call logs are synchronized automatically to the contact's timeline.",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function CrmFaqAccordion() {
           Got Questions?
         </span>
         <h2 className="text-3xl font-extrabold text-slate-900 mt-3">Frequently Asked Questions</h2>
-        <p className="text-slate-600 text-sm mt-1">Everything you need to know about Nexa CRM.</p>
+        <p className="text-slate-600 text-sm mt-1">Everything you need to know about Warrgyizmorsch CRM.</p>
       </div>
 
       <div className="space-y-3">

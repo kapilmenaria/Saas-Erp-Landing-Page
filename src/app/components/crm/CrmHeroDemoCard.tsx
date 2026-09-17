@@ -31,7 +31,7 @@ export default function CrmHeroDemoCard() {
             </div>
             <div>
               <h3 className="text-sm font-bold text-slate-900">Live AI Lead Simulator</h3>
-              <p className="text-xs text-slate-500">Test Nexa Lead Scoring & Pipeline Sync</p>
+              <p className="text-xs text-slate-500">Test Warrgyizmorsch Lead Scoring & Pipeline Sync</p>
             </div>
           </div>
           <span className="px-2.5 py-1 rounded-full text-[10px] font-bold tracking-wider uppercase bg-blue-50 text-blue-600 border border-blue-200">

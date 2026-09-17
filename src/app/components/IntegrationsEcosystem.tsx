@@ -578,7 +578,7 @@ export default function IntegrationsEcosystem() {
               your business is <span className="text-blue-600">built-on</span>.
             </h2>
             <p className="text-[15px] sm:text-[16px] text-slate-600 leading-relaxed max-w-2xl mx-auto">
-              Native, bidirectional API connectors connect your banks, payment gateways, online storefronts, couriers, and chat apps directly to your central Nexa ledger.
+              Native, bidirectional API connectors connect your banks, payment gateways, online storefronts, couriers, and chat apps directly to your central Warrgyizmorsch ledger.
             </p>
           </motion.div>
         </div>

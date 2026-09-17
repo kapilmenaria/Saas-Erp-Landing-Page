@@ -21,7 +21,7 @@ const hrmsData: ModuleDetailData = {
   title: "HRMS & Automated Payroll",
   oneLinePromise: "Automated workforce management, biometric attendance, and zero-error payroll processing.",
   description:
-    "Streamline your human resources from hire to retire. Nexa HRMS combines biometric attendance sync, automated tax deductions, employee self-service, and 1-click payroll processing into one unified platform.",
+    "Streamline your human resources from hire to retire. Warrgyizmorsch HRMS combines biometric attendance sync, automated tax deductions, employee self-service, and 1-click payroll processing into one unified platform.",
   painPoints: [
     {
       title: "Manual Attendance & Overtime Disputes",
@@ -128,7 +128,7 @@ const hrmsData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Eliminate payroll stress, ensure 100% statutory compliance, and give your staff a modern self-service experience with Nexa HRMS.",
+    "Eliminate payroll stress, ensure 100% statutory compliance, and give your staff a modern self-service experience with Warrgyizmorsch HRMS.",
 };
 
 export default function HrmsModulePage() {

@@ -87,7 +87,7 @@ const accountingData: ModuleDetailData = {
     {
       stepNumber: 2,
       title: "Bank Feed Reconciliation",
-      description: "Bank transactions feed into Nexa daily and auto-match against open receivable and payable ledgers.",
+      description: "Bank transactions feed into Warrgyizmorsch daily and auto-match against open receivable and payable ledgers.",
     },
     {
       stepNumber: 3,
@@ -128,7 +128,7 @@ const accountingData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Close your financial books in days instead of weeks and guarantee audit readiness with Nexa Accounting.",
+    "Close your financial books in days instead of weeks and guarantee audit readiness with Warrgyizmorsch Accounting.",
 };
 
 export default function AccountingModulePage() {

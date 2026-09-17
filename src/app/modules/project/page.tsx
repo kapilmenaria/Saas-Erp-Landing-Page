@@ -128,7 +128,7 @@ const projectData: ModuleDetailData = {
     },
   ],
   ctaPitch:
-    "Deliver projects on schedule, protect profit margins, and maximize billable team utilization with Nexa Project.",
+    "Deliver projects on schedule, protect profit margins, and maximize billable team utilization with Warrgyizmorsch Project.",
 };
 
 export default function ProjectModulePage() {

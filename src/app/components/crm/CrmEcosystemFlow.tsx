@@ -18,20 +18,20 @@ interface NodeItem {
   label: string;
   sub: string;
   icon: React.ComponentType<{ className?: string }>;
-  x: number; // horizontal offset from center in px
-  y: number; // vertical offset from center in px
+  x: number; // percentage from center
+  y: number; // percentage from center
   color: string;
 }
 
 const nodes: NodeItem[] = [
-  { id: "leads", label: "Leads & Contacts", sub: "360° Profile", icon: Users, x: 0, y: -175, color: "#2563eb" },
-  { id: "pipeline", label: "Deal Pipeline", sub: "Stage Automation", icon: Target, x: 190, y: -115, color: "#4f46e5" },
-  { id: "omnichannel", label: "Email & Telephony", sub: "Bi-directional Sync", icon: Mail, x: 250, y: 0, color: "#7c3aed" },
-  { id: "whatsapp", label: "WhatsApp & Chat", sub: "Instant Messaging", icon: MessageSquare, x: 190, y: 115, color: "#059669" },
-  { id: "ai", label: "AI Lead Scoring", sub: "Predictive Analytics", icon: Sparkles, x: 0, y: 175, color: "#9333ea" },
-  { id: "analytics", label: "Revenue Analytics", sub: "Live Forecasts", icon: BarChart3, x: -190, y: 115, color: "#db2777" },
-  { id: "billing", label: "Invoicing & Billing", sub: "Instant Conversion", icon: Receipt, x: -250, y: 0, color: "#d97706" },
-  { id: "erp", label: "ERP & Inventory", sub: "Real-time Stock", icon: RefreshCw, x: -190, y: -115, color: "#0284c7" },
+  { id: "leads", label: "Leads & Contacts", sub: "360° Profile", icon: Users, x: 0, y: -160, color: "#2563eb" },
+  { id: "pipeline", label: "Deal Pipeline", sub: "Stage Automation", icon: Target, x: 170, y: -90, color: "#4f46e5" },
+  { id: "omnichannel", label: "Email & Telephony", sub: "Bi-directional Sync", icon: Mail, x: 210, y: 50, color: "#7c3aed" },
+  { id: "whatsapp", label: "WhatsApp & Chat", sub: "Instant Messaging", icon: MessageSquare, x: 120, y: 170, color: "#059669" },
+  { id: "analytics", label: "Revenue Analytics", sub: "Live Forecasts", icon: BarChart3, x: -120, y: 170, color: "#db2777" },
+  { id: "billing", label: "Invoicing & Billing", sub: "Instant Conversion", icon: Receipt, x: -210, y: 50, color: "#d97706" },
+  { id: "erp", label: "ERP & Inventory", sub: "Real-time Stock", icon: RefreshCw, x: -170, y: -90, color: "#0284c7" },
+  { id: "ai", label: "AI Lead Scoring", sub: "Predictive Analytics", icon: Sparkles, x: 0, y: 190, color: "#9333ea" },
 ];
 
 export default function CrmEcosystemFlow() {
@@ -40,12 +40,12 @@ export default function CrmEcosystemFlow() {
   return (
     <div className="relative py-12 px-4 bg-slate-50/80 rounded-3xl border border-slate-200/90 shadow-xl shadow-slate-200/50 overflow-hidden">
       {/* Background radial glow */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[520px] h-[520px] bg-gradient-to-r from-blue-200/30 via-indigo-200/30 to-purple-200/30 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-gradient-to-r from-blue-200/30 via-indigo-200/30 to-purple-200/30 rounded-full blur-3xl pointer-events-none" />
 
       {/* Header */}
       <div className="text-center max-w-2xl mx-auto mb-10 relative z-10">
         <span className="px-3.5 py-1 rounded-full bg-blue-100/80 border border-blue-200 text-blue-700 text-xs font-bold uppercase tracking-widest">
-          360° CONNECTED ARCHITECTURE
+          360° Connected Architecture
         </span>
         <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-3">
           Everything connected with a complete 360° view.
@@ -56,7 +56,7 @@ export default function CrmEcosystemFlow() {
       </div>
 
       {/* Diagram Canvas */}
-      <div className="relative w-full max-w-4xl h-[480px] mx-auto flex items-center justify-center">
+      <div className="relative w-full max-w-4xl h-[460px] mx-auto flex items-center justify-center">
         {/* SVG Connecting Rays */}
         <svg className="absolute inset-0 w-full h-full pointer-events-none z-0 overflow-visible">
           {nodes.map((n) => {
@@ -68,18 +68,18 @@ export default function CrmEcosystemFlow() {
                 y1="50%"
                 x2={`calc(50% + ${n.x}px)`}
                 y2={`calc(50% + ${n.y}px)`}
-                stroke={isSelected ? n.color : "#cbd5e1"}
-                strokeWidth={isSelected ? "3" : "1.5"}
-                strokeDasharray="5 5"
-                className={isSelected ? "animate-[dashStream_1s_linear_infinite]" : "opacity-70"}
+                stroke={isSelected ? n.color : "rgba(203, 213, 225, 0.8)"}
+                strokeWidth={isSelected ? "2.5" : "1.5"}
+                strokeDasharray={isSelected ? "6 6" : "none"}
+                className={isSelected ? "animate-[dashStream_1s_linear_infinite]" : ""}
               />
             );
           })}
         </svg>
 
         {/* Orbit Ring Background */}
-        <div className="absolute w-[380px] h-[380px] rounded-full border border-slate-200/90 pointer-events-none" />
-        <div className="absolute w-[480px] h-[480px] rounded-full border border-slate-200/50 pointer-events-none" />
+        <div className="absolute w-[360px] h-[360px] rounded-full border border-slate-200/90 pointer-events-none" />
+        <div className="absolute w-[440px] h-[440px] rounded-full border border-slate-200/50 pointer-events-none" />
 
         {/* Central Core Hub */}
         <div className="relative z-20 w-32 h-32 rounded-3xl bg-white border-2 border-blue-600 shadow-[0_0_40px_rgba(37,99,235,0.2)] flex flex-col items-center justify-center text-center p-3">
@@ -101,18 +101,18 @@ export default function CrmEcosystemFlow() {
               className={`absolute z-30 px-3.5 py-2 rounded-2xl flex items-center gap-2.5 transition-all duration-300 cursor-pointer ${
                 isSelected
                   ? "bg-white border-2 shadow-xl scale-110"
-                  : "bg-white/95 border border-slate-200 hover:border-slate-400 hover:scale-105 shadow-md"
+                  : "bg-white/90 border border-slate-200/90 hover:border-slate-400 hover:scale-105 shadow-md"
               }`}
               style={{
-                left: `calc(50% + ${n.x}px - 75px)`,
-                top: `calc(50% + ${n.y}px - 22px)`,
+                left: `calc(50% + ${n.x}px - 70px)`,
+                top: `calc(50% + ${n.y}px - 20px)`,
                 borderColor: isSelected ? n.color : undefined,
                 boxShadow: isSelected ? `0 0 20px ${n.color}35` : undefined,
               }}
             >
               <div
-                className="w-7 h-7 rounded-lg flex items-center justify-center shrink-0"
-                style={{ backgroundColor: isSelected ? `${n.color}15` : "#f1f5f9", color: isSelected ? n.color : "#475569" }}
+                className="w-7 h-7 rounded-lg flex items-center justify-center"
+                style={{ backgroundColor: `${n.color}15`, color: n.color }}
               >
                 <NodeIcon className="w-4 h-4" />
               </div>
@@ -140,3 +140,4 @@ export default function CrmEcosystemFlow() {
     </div>
   );
 }
+
